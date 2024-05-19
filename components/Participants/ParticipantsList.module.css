@@ -1,0 +1,34 @@
+.usersList {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px 29px;
+}
+
+.userCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 250px;
+  min-height: 100px;
+  padding: 20px 30px;
+  border: 1px solid black;
+  background-color: rgba(245, 245, 255);
+  transition: 0.3s;
+
+  &:hover {
+    scale: 1.01;
+    transition: 0.3s;
+  }
+}
+
+p {
+  margin: 0;
+}

@@ -1,4 +1,4 @@
-import EventsList from "../../../components/Events/EventsList";
+import EventsList from "../../components/Events/EventsList";
 import css from "./HomePage.module.css";
 
 const HomePage = () => {

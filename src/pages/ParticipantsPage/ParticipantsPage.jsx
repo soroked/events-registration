@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import css from "./ParticipantsPage.module.css";
-import ParticipantsList from "../../../components/Participants/ParticipantsList";
+import ParticipantsList from "../../components/Participants/ParticipantsList";
 
 const ParticipantsPage = () => {
   return (

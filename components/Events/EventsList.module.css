@@ -1,0 +1,67 @@
+.eventsList {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px 29px;
+}
+
+.eventCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  width: 250px;
+  min-height: 200px;
+  padding: 20px 30px;
+  border: 1px solid black;
+  background-color: rgba(245, 245, 255);
+  transition: 0.3s;
+
+  &:hover {
+    scale: 1.01;
+    transition: 0.3s;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.description {
+  margin-bottom: 24px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regButton,
+.viewButton {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+  background: transparent;
+  border: none;
+  padding: 10px;
+  padding-left: 0px;
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:hover {
+    color: cornflowerblue;
+    transition: 0.3s;
+    scale: 1.05;
+  }
+}

@@ -1,0 +1,14 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.title {
+  text-align: "center";
+  margin: 0;
+  margin-bottom: 75px;
+}

@@ -1,8 +1,90 @@
-# React + Vite
+# Getting Started with Events Registration Webapp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to your new React project! This guide will help you set up and run your React application.
 
-Currently, two official plugins are available:
+## Prerequisites
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Before you start, make sure you have the following software installed on your system:
+
+- [Node.js](https://nodejs.org/) (v14 or higher recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/)
+
+## Setting Up Your Project
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+
+2. **Install dependencies:**
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Or using Yarn:
+
+   ```bash
+   yarn install
+   ```
+
+## Running the Application
+
+1. **Start the development server:**
+  
+      Using npm:
+
+      ```bash
+      npm start
+      ```
+    
+      Or using Yarn:
+    
+      ```bash
+      yarn start
+      ```
+      Your application should now be running on http://localhost:3000.
+
+## Folder Structure
+
+Here is a brief overview of the project structure:
+
+```bash
+events-registration/
+├── .github
+├── node_modules/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.css
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+├── .gitignore
+├── index.html
+├── package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
